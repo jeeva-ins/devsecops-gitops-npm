@@ -154,7 +154,7 @@ jobs:
       - name: update kubernetes  manifest
         env:
          REGISTRY: ghcr.io 
-         IMAGE_NAME: ${{ github.repository }}
+         IMAGE_NAME: jeeva-prof/devsecops-npm
          imagetag: ${{github.sha}}  
          
         run: |
