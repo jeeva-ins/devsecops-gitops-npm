@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tic-tac-toe
-        image: ghcr.io/Jeeva-prof/devsecops-npm:sha-2c189df07eea3945a565701e3b2fed689f82946b
+        image: ghcr.io/Jeeva-prof/devsecops-npm:sha-33a270b51d2a9622dbbdd0e603ed1e032b26acfb
         imagePullPolicy: Always
         ports:
         - containerPort: 80
