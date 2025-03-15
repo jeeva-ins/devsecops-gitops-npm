@@ -11,7 +11,7 @@ spec:
   - host: jeeva.fun
     http:  
       paths:
-      - path: /
+      - path: /play
         pathType: Prefix
         backend:
           service:
