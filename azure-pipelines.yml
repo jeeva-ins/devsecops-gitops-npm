@@ -13,3 +13,8 @@ steps:
 - task: Npm@1
   inputs:
     command: 'ci'
+- task: Npm@1
+  inputs:
+    command: 'publish'
+    publishRegistry: 'useFeed'
+    publishFeed: '9437a3c6-dc46-44e1-acd8-a909dcca4642'
